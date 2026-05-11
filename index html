@@ -3,6 +3,22 @@
 <head>
     <title>A Great Title</title>
     <meta name="description" content="Great stuff">
+    <style>
+        body {
+            margin:0px;
+        }
+        header{
+            background-color: blue;
+            color:bisque;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+
+        }
+
+    
+    </style>
+   
 </head>
 <body>
     <header>
