@@ -15,7 +15,7 @@
         }
 
 
-        header{
+        header {
             background-color: blue;
             color:bisque;
             text-align: center;
@@ -46,16 +46,16 @@
             border-radius: 5px;
             padding:5px;
             margin:5px;
-            background-color: blueviolet;
+            background-color:blueviolet;
             color:antiquewhite;
             text-decoration:none;
-            transition-duration: 0,3s;
+            transition-duration: 0.3s;
         }
         
         .link-button:hover{
             background-color: rgb(37, 0, 148);
             color: antiquewhite;
-            transition-duration: 0,3s;
+            transition-duration: 0.3s;
         }
 
         .flexbox{
@@ -65,7 +65,10 @@
             justify-content:center;
             align-content: space-around;
         }
-
+.center {
+    display: flex;
+    justify-content: center;
+}
     
     </style>
    
@@ -84,9 +87,14 @@
     href="mailto:s36102@pjwstk.edu.pl">s36102@pjwstk.edu.pl</a></p>
     </footer>
 
-   <button onclick="location.href='podstrona.html'">
+    <div class="center">
+
+   <button class="link-button" onclick="location.href='podstrona.html'">
         Button do podstrony
-    </button>"
+    </button>
+
+    </div>
+
 
     <div class="text-panel">
      <h2 style="text-align: center;">Hello world 
